@@ -10,24 +10,22 @@
         <version>3.6.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jtelegrambotapi-core</artifactId>
-    <name>jTelegramBotAPI</name>
+    <artifactId>jtelegrambotapi-menus</artifactId>
+    <name>jTelegramBotAPI Menus</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
+            <groupId>com.jtelegram</groupId>
+            <artifactId>jtelegrambotapi-core</artifactId>
+            <version>${project.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
         </dependency>
     </dependencies>
-
 </project>
